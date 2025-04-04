@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>PORTFOLIO</title>
+        <link rel="stylesheet" href="styles.css">
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    </head>
+    
+<body>
+    <header>
+        <h1>Ritish Hire</h1>
+        <label class="switch">
+            <input type="checkbox" id="darkModeToggle">
+            <span class="slider round"></span>
+        </label>
+    
+        <nav>
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <ul id="navMenu">
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#skills-section">Skills</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+<!-- Hero Section -->
+
+<section class="hero" id="hero">
+    <div class="hero-text">
+        <h1>Hi, I'm <span>Ritish Hire</span></h1>
+        <p id="text-loop">A passionate Web Developer</p>
+                <!-- Social Media Links -->
+                <div class="social-icons">
+                    <a href="https://www.linkedin.com/in/ritish-hire-5a65aa337?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app " target="_blank" class="social-icon">
+                        <i class="fab fa-linkedin-in"></i>
+                    </a>
+                    <a href="https://www.instagram.com/ritish_ravsaheb_hire?utm_source=qr&igsh=dXkybjViNnpnZGJt " target="_blank" class="social-icon">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                    <a href="https://github.com/Ritishhire" target="_blank" class="social-icon">
+                        <i class="fab fa-github"></i>
+                    </a>
+                </div>
+    </div>
+    <div class="hero-image">
+        <img src="IMG_5712.PNG" alt="Ritish's Profile">
+    </div>
+</section>
+
+<!-- About Me Section -->
+<section class="about" id="about">
+    <div class="about-container">
+        <div class="about-text">
+            <h2 id="about-heading"><span>About Me</span></h2>
+            <p id="about-text" class="about-text">I am a passionate Web Developer.</p>
+            <ul class="skills">
+                <li class="slide-text">🚀 Frontend: HTML, CSS, JavaScript, React.js</li>
+                <li class="slide-text">💾 Backend: PHP, Node.js</li>
+                <li class="slide-text">🎨 UI/UX: Tailwind CSS, Bootstrap</li>
+                <li class="slide-text">🛠️ Tools: Git, VS Code, Figma</li>
+            </ul>
+            <a href="Ritish Resume.pdf" class="btn" download>Download Resume</a>
+        </div>
+        
+        <!-- Image (Hidden on small screens) -->
+        <div class="about-image">
+            <img src="IMG_5712.PNG" alt="Ritish's Profile">
+        </div>
+    </div>
+</section>
+
+<!----------- Projects Section --------->
+
+<section class="projects" id="projects">
+    <div class="projects-container">
+        <h2 class="section-title">My Projects</h2>
+        <div class="projects-grid">
+            <!-- Project 1 -->
+            <div class="project-card">
+                <div class="project-info">
+                    <h3>Clinic Appointment Booking </h3>
+                    <p>Developed a clinic website using HTML, CSS, JavaScript, and PHP with appointment booking, services, health tips, and an admin panel. Integrated databases for scheduling and updates, ensuring responsiveness and efficiency for users.</p>
+                    <div class="project-links">
+                        <a href="#" class="btn" target="_blank">Live Demo</a>
+                        <a href="#" class="btn" target="_blank">GitHub</a>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Project 2 -->
+            <div class="project-card">
+                <div class="project-info">
+                    <h3>Quiz website</h3>
+                    <p>Developed a dynamic Quiz website using HTML, CSS, and JavaScript, featuring an interactive interface with multiple-choice questions, real-time score tracking, and instant feedback. Designed for responsiveness and smooth performance across all devices, providing an engaging and user-friendly experience.</p>
+                    <div class="project-links">
+                        <a href="#" class="btn" target="_blank">Live Demo</a>
+                        <a href="#" class="btn" target="_blank">GitHub</a>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Project 3 -->
+            <div class="project-card">
+                <div class="project-info">
+                    <h3>Drum Kit Website . </h3>
+                    <p>Developed a dynamic Drum Kit website using HTML, CSS, and JavaScript, featuring an interactive interface that lets users play drum sounds by clicking buttons or pressing keys. Designed for responsiveness and smooth performance across all devices, providing a fun and engaging experience.</p>
+                    <div class="project-links">
+                        <a href="#" class="btn" target="_blank">Live Demo</a>
+                        <a href="#" class="btn" target="_blank">GitHub</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!----------------- Skills Section --------------------->
+
+<section class="skills-section" id="skills-section">
+    <div class="skills-container">
+        <h2 class="section-title">My Skills</h2>
+
+        <div class="skills-grid">
+            <!-- Frontend -->
+            <div class="skill-category">
+                <h3> 🚀 Frontend</h3>
+                <div class="skill">
+                    <span><i class="fab fa-html5"></i> HTML</span>
+                    <div class="progress-bar"><div class="progress html"></div></div>
+                </div>
+                <div class="skill">
+                    <span><i class="fab fa-css3-alt"></i> CSS</span>
+                    <div class="progress-bar"><div class="progress css"></div></div>
+                </div>
+                <div class="skill">
+                    <span><i class="fab fa-js"></i> JavaScript</span>
+                    <div class="progress-bar"><div class="progress js"></div></div>
+                </div>
+                <div class="skill">
+                    <span><i class="fab fa-react"></i> React.js</span>
+                    <div class="progress-bar"><div class="progress react"></div></div>
+                </div>
+            </div>
+
+            <!-- Backend -->
+            <div class="skill-category">
+                <h3> 💾 Backend</h3>
+                <div class="skill">
+                    <span><i class="fab fa-php"></i> PHP</span>
+                    <div class="progress-bar"><div class="progress php"></div></div>
+                </div>
+                <div class="skill">
+                    <span><i class="fab fa-node"></i> Node.js</span>
+                    <div class="progress-bar"><div class="progress node"></div></div>
+                </div>
+            </div>
+
+            <!-- UI/UX -->
+            <div class="skill-category">
+                <h3>🎨 UI/UX</h3>
+                <div class="skill">
+                    <span><i class="fas fa-palette"></i> Tailwind CSS</span>
+                    <div class="progress-bar"><div class="progress tailwind"></div></div>
+                </div>
+                <div class="skill">
+                    <span><i class="fab fa-bootstrap"></i> Bootstrap</span>
+                    <div class="progress-bar"><div class="progress bootstrap"></div></div>
+                </div>
+            </div>
+
+            <!-- Tools -->
+            <div class="skill-category">
+                <h3>🛠️ Tools</h3>
+                <div class="skill">
+                    <span><i class="fab fa-git-alt"></i> Git</span>
+                    <div class="progress-bar"><div class="progress git"></div></div>
+                </div>
+                <div class="skill">
+                    <span><i class="fas fa-code"></i> VS Code</span>
+                    <div class="progress-bar"><div class="progress vscode"></div></div>
+                </div>
+                <div class="skill">
+                    <span><i class="fab fa-figma"></i> Figma</span>
+                    <div class="progress-bar"><div class="progress figma"></div></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-----------contact section ------------->
+<section class="contact-section" id="contact">
+    <div class="contact-container">
+        <h2 class="section-title">Contact Me</h2>
+
+        <div class="contact-content">
+            <!-- Contact Form -->
+            <form class="contact-form">
+                <div class="input-group">
+                    <input type="text" id="name" placeholder="Your Name" required>
+                </div>
+                <div class="input-group">
+                    <input type="email" id="email" placeholder="Your Email" required>
+                </div>
+                <div class="input-group">
+                    <textarea id="message" placeholder="Your Message" required></textarea>
+                </div>
+                <button type="submit" class="btn">Send Message</button>
+            </form>
+
+            <!-- Social Media -->
+            <div class="contact-info">
+                <p><i class="fas fa-envelope"></i> ritishhire179@gmail.com</p>
+                <p><i class="fas fa-phone"></i> +91 9313538016</p>
+                <p><i class="fas fa-map-marker-alt"></i> Surat, Gujarat, India</p>
+
+                <div class="social-links">
+                    <a href="https://github.com/Ritishhire" target="_blank" class="social-icon"><i class="fab fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/ritish-hire-5a65aa337?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app " target="_blank" class="social-icon"><i class="fab fa-linkedin"></i></a>
+                    <a href="https://www.instagram.com/ritish_ravsaheb_hire?utm_source=qr&igsh=dXkybjViNnpnZGJt" target="_blank" class="social-icon"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-----footer section-->
+<footer class="footer">
+    <div class="footer-container">
+        <div class="footer-logo">
+            <h2>Ritish's Portfolio</h2>
+        </div>
+        
+        <div class="footer-links">
+            <a href="#hero">Home</a>
+            <a href="#about">About</a>
+            <a href="#projects">Projects</a>
+            <a href="#skills-section">Skills</a>
+            <a href="#contact">Contact</a>
+        </div>
+
+        <div class="footer-socials">
+            <a href="https://github.com/Ritishhire" target="_blank" class="social-icon"><i class="fab fa-github"></i></a>
+            <a href="https://www.linkedin.com/in/ritish-hire-5a65aa337?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app " target="_blank" class="social-icon"><i class="fab fa-linkedin"></i></a>
+            <a href="https://www.instagram.com/ritish_ravsaheb_hire?utm_source=qr&igsh=dXkybjViNnpnZGJt " target="_blank" class="social-icon"><i class="fab fa-instagram"></i></a>
+        </div>
+
+        <p class="footer-text">© 2025 Ritish. All Rights Reserved.</p>
+    </div>
+</footer>
+
+</body>
+<script src="script.js"></script>
+</html>
